@@ -1,0 +1,13 @@
+#menu {
+  overflow-x: hidden;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+}
+
+#particles {
+  width: 100vw;
+  height: 100vh;
+  background-color: #021157;
+}

@@ -1,0 +1,141 @@
+body {
+    color: white;
+    background-color: red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+p {
+    text-align: center;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.topBar {
+    background-color: rgba(3, 0, 46, 0.8);
+    padding: 0.7%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.topBar h2 {
+    font-weight: bold;
+}
+
+.topBar h2 span {
+    color: #c5ecfd;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form-group{
+    padding: 2%;
+}
+
+.BBlogin {
+    border: 2px solid #c5fdf4;
+    border-radius: 10px;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.formBox {
+    background: rgba(6, 6, 49, 0.7);
+    text-align: center;
+    padding: 4%;
+    border-radius: 3%;
+    margin-top: 5%;
+    margin: 5% 30% 1%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+}
+
+.formBox input {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+
+.formBox input:focus {
+    color: #c5ecfd;
+    background-color: transparent;
+}
+
+/* button  */
+
+.but {
+    margin-top: 50px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.but button {
+    width: 100px;
+    height: 50px;
+    color: #c5ecfd;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #080e57;
+    border: 1px solid #c5ecfd;
+    border-radius: 4px;
+}
+
+.but img {
+    margin-top: -32px;
+}
+
+.but button:hover {
+    background-color: #071074;
+    border: 2px solid #c5ecfd;
+}
+
+/* table */
+
+.tbl {
+color: white;
+font-size: 1.1em;
+font-weight: bold;
+border-collapse: collapse;
+width: 100%;
+}
+
+.tbl td, .tbl th {
+padding: 8px;
+}
+
+.tbl tr:nth-child(even){background-color: rgb(8, 4, 78);}
+.tbl tr:nth-child(odd){background-color: rgb(9, 5, 66);}
+
+.tbl th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: rgba(3, 0, 46, 0.8);
+box-shadow: 0 0 10px rgba(0,0,0,0.4);
+color: white;
+}
+
+/* image */
+
+img {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* warning */
+#warning {
+    color: red;
+}
